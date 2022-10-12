@@ -74,7 +74,7 @@ a{
     width: 200px;
     padding: 0;
     position: absolute;
-    right: 14%;
+    right: 10%;
     top: 55px;
     z-index: 10;
 }
@@ -534,6 +534,9 @@ footer p{
     }
     .about-img::after{
       display: none;
+    }
+    .links:hover #nav-links{
+      right: 14%;
     }
 }
 
