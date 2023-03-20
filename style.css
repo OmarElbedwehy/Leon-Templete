@@ -362,7 +362,8 @@ a {
 .services .srv {
   display: flex;
   margin-bottom: 25px;
-  width: 400px;
+  width: 100%;
+  width: 80%;
 }
 
 .services .srv i {
@@ -578,16 +579,11 @@ a {
 
 footer {
   background-color: #2c4755;
-  /* width: 99%; */
-  padding: 5px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  padding: 10px;
 }
 
 footer p {
   font-size: 20px;
-  /* font-weight: bold; */
   color: #fff;
   text-align: center;
 }
@@ -655,8 +651,6 @@ footer p {
 
   header .container {
     padding: 0 20px;
-    /* width: 75%; */
-    /* padding-left: 0; */
     margin: 0;
   }
 
@@ -710,7 +704,6 @@ footer p {
   }
 
   .portfolio .container {
-    /* padding-left: 33px; */
     justify-content: center;
   }
 
@@ -779,6 +772,14 @@ footer p {
     display: none;
   }
 
+  .services-content {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .services .srv {
+    width: fit-content;
+  }
+
   .about-container {
     padding: 0 20px;
   }
@@ -793,7 +794,6 @@ footer p {
 
   .about .container {
     padding: 0 50px;
-    /* width: 500px; */
     justify-content: center;
     margin-top: 50px;
   }
