@@ -150,6 +150,7 @@ a {
 
 .landing {
   background-image: url(images/landing.jpg);
+  background-attachment: fixed;
   background-size: cover;
   height: calc(100vh - 68px);
   position: relative;
